@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Registrace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <h2>SocialApp</h2>
+  <ul>
+    <li><a href="wall.html">Zeď</a></li>
+    <li><a href="users.html">Uživatelé</a></li>
+    <li><a href="login.html">Přihlášení</a></li>
+    <li><a href="register.html">Registrace</a></li>
+  </ul>
+</nav>
+
+
+<div class="container center">
+  <h1>Registrace</h1>
+
+  <form id="registerForm" class="card">
+    <input type="text" placeholder="Jméno" required>
+    <input type="text" placeholder="Příjmení" required>
+    <input type="number" id="age" placeholder="Věk" required>
+    
+    <select required>
+      <option value="">Pohlaví</option>
+      <option>Muž</option>
+      <option>Žena</option>
+    </select>
+
+    <input type="file" accept="image/*">
+    <input type="text" placeholder="Uživatelské jméno" required>
+    <input type="password" placeholder="Heslo" required>
+
+    <button type="submit">Registrovat</button>
+  </form>
+</div>
+
+
+<script src="register.js"></script>
+</body>
+</html>
